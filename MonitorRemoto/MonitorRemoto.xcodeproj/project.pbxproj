@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC19F799256DCBC600567C8F /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19F798256DCBC600567C8F /* Pessoa.swift */; };
+		BC19F79C256DD34F00567C8F /* Medico.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19F79B256DD34F00567C8F /* Medico.swift */; };
+		BC19F79F256DD36600567C8F /* Enfermeiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19F79E256DD36600567C8F /* Enfermeiro.swift */; };
+		BC43830C256B1D0900323441 /* BancoDAOGeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43830B256B1D0900323441 /* BancoDAOGeral.swift */; };
+		BC5FA5E325658219009B0395 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FA5E225658219009B0395 /* CollectionViewCell.swift */; };
+		BC63E4C12561E558001AE9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63E4C02561E558001AE9CC /* AppDelegate.swift */; };
+		BC63E4C32561E558001AE9CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63E4C22561E558001AE9CC /* SceneDelegate.swift */; };
+		BC63E4C52561E558001AE9CC /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63E4C42561E558001AE9CC /* loginViewController.swift */; };
+		BC63E4C82561E558001AE9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63E4C62561E558001AE9CC /* Main.storyboard */; };
+		BC63E4CA2561E55B001AE9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC63E4C92561E55B001AE9CC /* Assets.xcassets */; };
+		BC63E4CD2561E55B001AE9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63E4CB2561E55B001AE9CC /* LaunchScreen.storyboard */; };
+		BCE45A18256B11100013C182 /* indexPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE45A17256B11100013C182 /* indexPageViewController.swift */; };
+		BCE45A1B256B122A0013C182 /* addPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE45A1A256B122A0013C182 /* addPatientViewController.swift */; };
+		BCE45A1E256B13CD0013C182 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE45A1D256B13CD0013C182 /* Paciente.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC19F798256DCBC600567C8F /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		BC19F79B256DD34F00567C8F /* Medico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medico.swift; sourceTree = "<group>"; };
+		BC19F79E256DD36600567C8F /* Enfermeiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enfermeiro.swift; sourceTree = "<group>"; };
+		BC43830B256B1D0900323441 /* BancoDAOGeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDAOGeral.swift; sourceTree = "<group>"; };
+		BC5FA5E225658219009B0395 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BC63E4BD2561E558001AE9CC /* MonitorRemoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitorRemoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC63E4C02561E558001AE9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC63E4C22561E558001AE9CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC63E4C42561E558001AE9CC /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BC63E4C72561E558001AE9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC63E4C92561E55B001AE9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC63E4CC2561E55B001AE9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC63E4CE2561E55B001AE9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE45A17256B11100013C182 /* indexPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indexPageViewController.swift; sourceTree = "<group>"; };
+		BCE45A1A256B122A0013C182 /* addPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPatientViewController.swift; sourceTree = "<group>"; };
+		BCE45A1D256B13CD0013C182 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC63E4BA2561E558001AE9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC63E4B42561E558001AE9CC = {
+			isa = PBXGroup;
+			children = (
+				BC63E4BF2561E558001AE9CC /* MonitorRemoto */,
+				BC63E4BE2561E558001AE9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC63E4BE2561E558001AE9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC63E4BD2561E558001AE9CC /* MonitorRemoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC63E4BF2561E558001AE9CC /* MonitorRemoto */ = {
+			isa = PBXGroup;
+			children = (
+				BC63E4C02561E558001AE9CC /* AppDelegate.swift */,
+				BC63E4C22561E558001AE9CC /* SceneDelegate.swift */,
+				BC63E4C42561E558001AE9CC /* loginViewController.swift */,
+				BC5FA5E225658219009B0395 /* CollectionViewCell.swift */,
+				BC63E4C62561E558001AE9CC /* Main.storyboard */,
+				BCE45A1A256B122A0013C182 /* addPatientViewController.swift */,
+				BCE45A1D256B13CD0013C182 /* Paciente.swift */,
+				BC19F798256DCBC600567C8F /* Pessoa.swift */,
+				BC19F79B256DD34F00567C8F /* Medico.swift */,
+				BC19F79E256DD36600567C8F /* Enfermeiro.swift */,
+				BCE45A17256B11100013C182 /* indexPageViewController.swift */,
+				BC43830B256B1D0900323441 /* BancoDAOGeral.swift */,
+				BC63E4C92561E55B001AE9CC /* Assets.xcassets */,
+				BC63E4CB2561E55B001AE9CC /* LaunchScreen.storyboard */,
+				BC63E4CE2561E55B001AE9CC /* Info.plist */,
+			);
+			path = MonitorRemoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC63E4BC2561E558001AE9CC /* MonitorRemoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC63E4D12561E55B001AE9CC /* Build configuration list for PBXNativeTarget "MonitorRemoto" */;
+			buildPhases = (
+				BC63E4B92561E558001AE9CC /* Sources */,
+				BC63E4BA2561E558001AE9CC /* Frameworks */,
+				BC63E4BB2561E558001AE9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonitorRemoto;
+			productName = MonitorRemoto;
+			productReference = BC63E4BD2561E558001AE9CC /* MonitorRemoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC63E4B52561E558001AE9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					BC63E4BC2561E558001AE9CC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = BC63E4B82561E558001AE9CC /* Build configuration list for PBXProject "MonitorRemoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC63E4B42561E558001AE9CC;
+			productRefGroup = BC63E4BE2561E558001AE9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC63E4BC2561E558001AE9CC /* MonitorRemoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC63E4BB2561E558001AE9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC63E4CD2561E55B001AE9CC /* LaunchScreen.storyboard in Resources */,
+				BC63E4CA2561E55B001AE9CC /* Assets.xcassets in Resources */,
+				BC63E4C82561E558001AE9CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC63E4B92561E558001AE9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC43830C256B1D0900323441 /* BancoDAOGeral.swift in Sources */,
+				BC63E4C52561E558001AE9CC /* loginViewController.swift in Sources */,
+				BCE45A18256B11100013C182 /* indexPageViewController.swift in Sources */,
+				BCE45A1B256B122A0013C182 /* addPatientViewController.swift in Sources */,
+				BC19F79C256DD34F00567C8F /* Medico.swift in Sources */,
+				BC19F799256DCBC600567C8F /* Pessoa.swift in Sources */,
+				BC19F79F256DD36600567C8F /* Enfermeiro.swift in Sources */,
+				BC63E4C12561E558001AE9CC /* AppDelegate.swift in Sources */,
+				BCE45A1E256B13CD0013C182 /* Paciente.swift in Sources */,
+				BC5FA5E325658219009B0395 /* CollectionViewCell.swift in Sources */,
+				BC63E4C32561E558001AE9CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC63E4C62561E558001AE9CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC63E4C72561E558001AE9CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC63E4CB2561E55B001AE9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC63E4CC2561E55B001AE9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC63E4CF2561E55B001AE9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC63E4D02561E55B001AE9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC63E4D22561E55B001AE9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitorRemoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PUC-Rio.MonitorRemoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC63E4D32561E55B001AE9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonitorRemoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PUC-Rio.MonitorRemoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC63E4B82561E558001AE9CC /* Build configuration list for PBXProject "MonitorRemoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC63E4CF2561E55B001AE9CC /* Debug */,
+				BC63E4D02561E55B001AE9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC63E4D12561E55B001AE9CC /* Build configuration list for PBXNativeTarget "MonitorRemoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC63E4D22561E55B001AE9CC /* Debug */,
+				BC63E4D32561E55B001AE9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC63E4B52561E558001AE9CC /* Project object */;
+}
